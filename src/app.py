@@ -1,7 +1,7 @@
 from pickle import load
 import streamlit as st
 
-model = load(open("../models/decision_tree_classifier_gini_5_3_10_42.sav", "rb"))
+model = load(open("models/decision_tree_classifier_gini_5_3_10_42.sav", "rb"))
 class_dict = {
     "0" : "No tiene diabetes",
     "1" : "Si tiene diabetes",
