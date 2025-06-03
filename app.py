@@ -83,3 +83,4 @@ def plot_feature_importances(model, features):
 
 with st.expander("Mostrar importancia de variables"):
     plot_feature_importances(model, ["Pregnancies", "Glucose", "SkinThickness", "BMI", "DiabetesPedigreeFunction", "Age"])
+    
